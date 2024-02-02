@@ -22,7 +22,7 @@ function readFileContent(filePath){
         }
     })
 }
-readFileContent('emptyFile.txt')   
-readFileContent('nonexistent-file.txt')
-readFileContent('file1.txt') 
+readFileContent('./emptyFile.txt')   
+readFileContent('./nonexistent-file.txt')
+readFileContent('./file1.txt') 
 
